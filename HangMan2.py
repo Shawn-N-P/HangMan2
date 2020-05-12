@@ -40,5 +40,5 @@ while True:  # Allows user input and gives information output
         Tries = Tries - 1
         print("Your tries left: " + str(Tries))
 
-    if Tries == 0:  # If tries hit 0 then the game ends
+    if Tries == 0:  # If tries hit 0 then the game ends # ends
         break
