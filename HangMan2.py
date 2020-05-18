@@ -30,12 +30,12 @@ while True:  # Allows user input and gives results output
     if getAnswer == "You got it! \n":  # If the user guess letter input is correct
         letters.append(guess)
         print("Your guess {} was correct.".format(guess))
-        print("Your guesses so far: " + str((", ".join(letters))))
+        print("Your correct guesses so far: " + str((", ".join(letters))))
     else:
         print("Your guess {} was incorrect. \n".format(guess))
         Attempts += 1
     if guess == word:  # If the user guesses the chosen word correctly
         print("You guessed the correct word! You won! \n")
-    if Attempts == 10:  # If Attempts hit 10 then the game ends
+    if Attempts == 11:  # If Attempts hit 10 then the game ends
         print("You lose! \n")
         break
